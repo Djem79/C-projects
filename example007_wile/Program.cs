@@ -36,8 +36,8 @@ while(count < 1000)
         x = (x + xc)/2;
         y = (y + yc)/2;
     }
-
+    
     Console.SetCursorPosition(x, y);
     Console.WriteLine("+");
-    count+=1;
+    count ++;
 }

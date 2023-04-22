@@ -6,7 +6,7 @@
     return result;
 }
 int a1 = 12;
-int b1 = 33;
+int b1 = 3333;
 int c1 = 25;
 int a2 = 15;
 int b2 = 567;
@@ -15,10 +15,10 @@ int a3 = 23;
 int b3 = 45;
 int c3 = 88;
 
-int max1 = Max(a1, b1, c1);
+/*int max1 = Max(a1, b1, c1);
 int max2 = Max(a2, b2, c2);
 int max3 = Max(a3, b3, c3);
-
 int max = Max(max1, max2, max3);
-
+*/
+int max = Max(Max(a1, b1, c1), Max(a2, b2, c2), Max(a3, b3, c3));
 Console.WriteLine(max);
